@@ -22,6 +22,7 @@ h1 {
     padding: 0;
     
 }
+
 #first {
     border-color:white;
     background:white;
@@ -45,7 +46,7 @@ h1 {
 .photodate {
     font-size: small;
 	color: lightslategray;
-	text-align:  right ;
+	text-align: right ;
 
 }
 
@@ -53,13 +54,19 @@ body{
 	font-family: Helvetica;
     font-weight: 100;
     background: #eaeaea;
-    
+}
+#first i {
+    margin-bottom: -10;
+    text-align: end;
+    font-weight: 50000;
+
 }
 #text1{
 	margin-bottom: 60px;
     margin-top: 1px;
     margin-right:3px;
 }
+
 #first  h2 {
     width: 300px;
 	float:left;
@@ -95,6 +102,7 @@ body{
         text-align: right;
     
     }
+
     #third {
         border-color:white;
         background:white;
@@ -106,13 +114,14 @@ body{
         height:530px;
         border-radius: 10px;
         margin-top: 80px;
-
     }
+
     #third img {
         max-width: 100%;
         width: 100%;
         height: auto;
     }
+
     .photodate3 {
         font-size: small;
         color: lightslategray;
