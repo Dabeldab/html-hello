@@ -29,9 +29,8 @@ h1 {
     background:white;
 	margin: auto ;
     padding: 0px;
-    width: 430px;
-    border: 4px;
-    height:460px;
+    width: 500px;
+    height:520px;
     border-radius: 10px;
     border-left: 3px;
 }
@@ -60,16 +59,17 @@ body{
 
 #text1{
 	margin-bottom: 60px;
-    margin-top: 1px;
-    margin-right:3px;
+    margin-top: 0px;
+    margin-left:6px;
+    padding:0;
 }
 
 #first  h2 {
     width: 300px;
     display: inline-block;
-    top:-10;
-    padding: 2;
-    margin-bottom: -10;
+    top:-18px;
+    padding: 2px;
+    margin-bottom: -15px;
     text-align: end;
     font-weight: 100;
 
@@ -80,14 +80,13 @@ body{
         background:white;
         margin: auto ;
         padding: 0;
-        width: 500px;
+        width: 520px;
         border: 4px;
         top: 3px;
         border-radius: 10px;
         margin-top: 60px;
         margin-bottom: 60px;
-        height: 530px;
-
+        height: 520px;
     }
 
     
@@ -108,11 +107,11 @@ body{
         border-color:white;
         background:white;
         margin: auto ;
-        padding: 0;
+        padding: 3;
         width: 500px;
         border: 1px;
         top: 1px;
-        height:540px;
+        height:530px;
         border-radius: 10px;
         margin-top: 80px;
         border-bottom: 10px;
@@ -121,11 +120,12 @@ body{
     #third  h2 {
         width: 300px;
         display: inline-block;
-        top:-10;
-        padding: 2;
-        margin-bottom: 2;
+        top:-13px;
+        padding: 0px;
+        margin-bottom: 5px;
         text-align: left;
         font-weight: 100;
+        margin-left: 3px;
     }
 
     #third img {
@@ -135,17 +135,56 @@ body{
     }
 
     #second  h2 {
-        width: 300px;
+        width: 380px;
         display: inline-block;
-        top:-10;
-        padding: 2;
-        margin-bottom: -10;
+        top:-20px;
+        padding: -7px;
+        margin-bottom: -10px;
         text-align: left;
         font-weight: 100;
-
+        padding-left: 10px;
     }
 
     .photodate3 {
+        font-size: small;
+        color: lightslategray;
+        text-align: right;
+
+    }
+    #second i {
+        font:italic;
+    }
+    #fourth {
+        border-color:white;
+        background:white;
+        margin: auto ;
+        padding: 3;
+        width: 500px;
+        border: 1px;
+        top: 1px;
+        height:400px;
+        border-radius: 10px;
+        margin-top: 80px;
+        border-bottom: 10px;
+    }
+    #fourth img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    #fourth  h2 {
+        width: 380px;
+        display: inline-block;
+        top:-20px;
+        padding: -7px;
+        margin-bottom: -10px;
+        text-align: left;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+
+    .photodate4 {
         font-size: small;
         color: lightslategray;
         text-align: right;
