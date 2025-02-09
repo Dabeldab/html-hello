@@ -20,6 +20,7 @@
 h1 {
     text-align: center ;
     padding: 0;
+    width:auto;
     
 }
 
@@ -55,10 +56,15 @@ body{
     font-weight: 100;
     background: #eaeaea;
 }
-#first i {
+#first h1 {
     margin-bottom: -10;
     text-align: end;
-    font-weight: 50000;
+    font-weight: 100;
+        padding: 0;
+        width: 30;
+        text-align: left;
+
+
 
 }
 #text1{
@@ -69,8 +75,7 @@ body{
 
 #first  h2 {
     width: 300px;
-	float:left;
-    display:inline-table;
+    display: inline-block;
     top:-10;
     padding: 0;
 
@@ -83,7 +88,7 @@ body{
         padding: 0;
         width: 500px;
         border: 4px;
-        top: 1px;
+        top: 3px;
         border-radius: 10px;
         margin-top: 60px;
         margin-bottom: 60px;
@@ -91,6 +96,7 @@ body{
 
     }
 
+    
     #second img {
         max-width: 100%;
         width: 100%;
